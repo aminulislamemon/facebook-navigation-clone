@@ -29,7 +29,8 @@ const Header = () => {
           />
         </div>
       </div>
-      <div className="flex text-2xl absolute left-[330px] text-gray-600 items-center justify-center">
+      <FontAwesomeIcon className="lg:hidden md:hidden flex m-2" icon={faBars}/>
+      <div className="lg:flex hidden text-2xl absolute left-[330px] text-gray-600 items-center justify-center">
         <FontAwesomeIcon
           className="px-[30px] py-[25px] ml-[20px] hover:rounded-lg hover:text-blue-500 hover:bg-gray-200 cursor-pointer"
           icon={faHome}
