@@ -29,7 +29,7 @@ const Header = () => {
           />
         </div>
       </div>
-      <div className="flex text-2xl absolute left-[330px] text-gray-600">
+      <div className="flex text-2xl absolute left-[330px] text-gray-600 items-center justify-center">
         <FontAwesomeIcon
           className="px-[30px] py-[25px] ml-[20px] hover:rounded-lg hover:text-blue-500 hover:bg-gray-200 cursor-pointer"
           icon={faHome}
@@ -51,7 +51,7 @@ const Header = () => {
           icon={faUsersLine}
         />
       </div>
-      <div className="mr-1 flex items-center">
+      <div className="mr-1 lg:flex items-center hidden">
         <div className="flex items-center  hover:bg-gray-200 pr-12 rounded-full">
           <img
             className="w-[40px] h-[40px] rounded-full"
